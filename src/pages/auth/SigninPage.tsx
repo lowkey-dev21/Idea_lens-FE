@@ -36,6 +36,7 @@ const SigninPage = () => {
 
           <div className="flex items-center p-2 md:p-3 gap-4 rounded-md !bg-white border border-gray-500 hover:border-gray-700 transition-colors cursor-pointer">
             <img
+            loading="lazy"
               src={google}
               className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] rounded-full"
               alt="Google logo"
@@ -45,6 +46,7 @@ const SigninPage = () => {
 
           <div className="flex items-center p-2 md:p-3 gap-4 rounded-md !bg-white border border-gray-500 hover:border-gray-700 transition-colors cursor-pointer">
             <img
+            loading="lazy"
               src={github}
               className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] rounded-full"
               alt="GitHub logo"
